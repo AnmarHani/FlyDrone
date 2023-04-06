@@ -17,4 +17,12 @@ my_first_drone.arm() # If your drone is ready, this should arm
 my_first_drone.takeoff(15) # The drone should takeoff with altitude of 15
 ```
 
-## Documentation
+## Documentation: **STATUS - INCOMPLETE**
+``Drone``: a class that holds all functionalities and takes the connection string as a parameter. You can refer to this documentation for more information about connection strings https://mavlink.io/en/mavgen_python/.
+``Drone/arm()``: a function that make the drone arm if its ready.
+``Drone/disarm()``: a function that make the drone disarm if its ready.
+``Drone/takeoff()``: a function that make the drone takeoff if its armed and ready, takes the altitude as a parameter.
+``Drone/change_mode()``: a function that changes the drone's mode if its ready, takes the mode as a parameter. You can refer to this documentation for more information about drone's modes https://ardupilot.org/copter/docs/flight-modes.html.
+``Drone/return_to_launch()``: a function that changes the drone's mode to RTL so it returns to the place that its launched from.
+``Drone/local_movement()``:
+
